@@ -7,7 +7,7 @@ public class ThreadMethods implements Runnable {
 		try {
 			for (int i = 1; i <= 5; i++) {
 				System.out.println("Thread is running");
-				Thread.sleep(100);
+				Thread.sleep(1000);
 			}
 		} catch (InterruptedException e) {
 			e.printStackTrace();
